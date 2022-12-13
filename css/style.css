@@ -1597,7 +1597,7 @@ display: flex;
   }
 }
 
-input[type=text] {
+input[type=text].filter {
   width: 180px;
   box-sizing: border-box;
   border: 2px solid #ccc;
