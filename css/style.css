@@ -23,7 +23,7 @@
   --bg-features-3: #ddf5fc;
   --bg-features-4: #dcf6e8;
   --bg-features-5: #f8e4e1;
-  --bg-features-6: #fbffd4;
+  --bg-features-6: #d8cfeb;
 
   /* Text Color */
   --text-black: #000;
@@ -1614,4 +1614,22 @@ input[type=text].filter {
 
 input[type=text]:focus {
   width: 70%;
+}
+
+/* select */
+
+.select {
+  height: 3rem;
+  margin-top: 5px;
+  color: gray;
+  width: 38rem;
+  margin-right: 4px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .select {   
+   width: 100%;
+   height: 53px;
+  }
 }
