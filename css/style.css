@@ -1446,7 +1446,6 @@ input[type="submit"]:hover {
     text-align: center;
   }
   .header_wrapper .nav-item .nav-link {
-    margin-top: 15px;
     font-size: 18px;
   }
   .header_wrapper .nav-item:last-child .nav-link {
