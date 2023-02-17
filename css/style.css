@@ -186,7 +186,7 @@ animation: bounce 1s infinite;
   background: rgb(20 20 128 / 88%);
 }
 .header_wrapper .navbar-brand img {
-  max-width: 150px;
+  max-width: 220px;
   margin-left: 20px;
   height: auto;
 }
