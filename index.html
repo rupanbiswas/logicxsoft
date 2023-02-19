@@ -163,9 +163,8 @@
           </div>
           <div class="col-md-6 my-5 my-md-0 text-center text-md-start">
             <div class="container1">
-              <form action="/action_page.php">
-                <div class="row">
-                  
+              <form onsubmit="Mail()">
+                <div class="row">                  
                   <div class="col-75">
                     <input
                       type="text"
@@ -188,7 +187,7 @@
                   <div class="col-75">
                     <input
                       type="number"
-                      id="lname"
+                      id="number"
                       name="lastname"
                       placeholder="Enter phone number.."
                       autocomplete="off"
@@ -203,18 +202,6 @@
                       </select>
                   </div>
                 </div>
-                <!-- <div class="row">
-                    <div class="col-25">
-                      <label for="country">Country</label>
-                    </div>
-                    <div class="col-75">
-                      <select id="country" name="country">
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
-                      </select>
-                    </div>
-                </div> -->
                 <div class="row">
                   <div class="col-75">                    
                     <textarea
@@ -849,6 +836,33 @@
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"
   ></script>
-
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <script>
+    function Mail(){
+
+        const fname = document.getElementById('fname').value;
+        const email = document.getElementById('email').value;
+        const number = document.getElementById('number').value;
+        const country = document.getElementById('country').value;
+        const subject = document.getElementById('subject').value;
+
+
+
+        Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "rahulrouth100@gmail.com",
+        Password : "D0CD3C98DF88A27DB2144C163F66B377FD38",
+        To : 'rahulrouth180@gmail.com',
+        From : "rahulrouth100@gmail.com",
+        Subject : "Message sent successfully",
+        Body : "Logicxsoft"
+    }).then(
+    message => alert("message")
+    ); 
+}
+   
+  </script>
 </html>

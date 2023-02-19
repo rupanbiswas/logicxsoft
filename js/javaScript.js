@@ -57,3 +57,15 @@ const updateScrollPercentage = function() {
 window.addEventListener('scroll', updateScrollPercentage)
 
 
+// const fname =document.getElementById('fname');
+// const email =document.getElementById('email');
+// const number =document.getElementById('number');
+// const country =document.getElementById('country');
+// const subject =document.getElementById('subject');
+// const submit =document.getElementById('submit');
+
+
+// submit.addEventListener('submit', (e)=>{
+//     e.preventDefault();
+//     console.log('Clicked');
+// })
