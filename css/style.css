@@ -988,6 +988,10 @@ input[type="submit"]:hover {
   font-weight: 600;
   line-height: 1.5;
   color: var(--text-light-2);
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .features_wrapper .ft-1 {
