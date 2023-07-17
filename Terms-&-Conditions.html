@@ -1,255 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="shortcut icon" href="images/lbs1.png" type="image/x-icon" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
+  <link rel="shortcut icon" href="images/lbs1.png" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- CDN Owl Carousel -->
+  <!-- CDN Owl Carousel -->
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
-      integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link
-      rel="import"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
-    />
-    <title>Handled By | Professional</title>
+  <link rel="import" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+  <title>Handled By | Professional</title>
 </head>
+
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="85">
-    <!-- Navbar section -->
-    <header class="header_wrapper">
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">
-            <img src="images/logo-white.png" class="img-fluid" alt="logo" />
-            <!-- <h1 style="color: white;">Logicxsoft</h1> -->
-          </a>
-          <button
-            class="navbar-toggler pe-0"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <!-- <span class="navbar-toggler-icon"></span> -->
-            <i class="fa-solid fa-bars-staggered"></i>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav menu-navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html"
-                  >home</a
-                >
-              </li>
-              <li class="dropdown">
-                <a href="./about-us.html">
+  <!-- Navbar section -->
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="images/logo-white.png" class="img-fluid" alt="logo" />
+          <!-- <h1 style="color: white;">Logicxsoft</h1> -->
+        </a>
+        <button class="navbar-toggler pe-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">home</a>
+            </li>
+            <li class="dropdown">
+              <a href="./about-us.html">
                 <button class="dropbtn">about-us</button>
               </a>
-                <!-- <div class="dropdown-content">
+              <!-- <div class="dropdown-content">
                   <a href="#">Handled by professional</a>
                   <a href="#">Surviving coustomers</a>
                 </div> -->
-              </li>
+            </li>
 
-              <li class="dropdown">
-                <a href="./our-Services.html">
+            <li class="dropdown">
+              <a href="./our-Services.html">
                 <button class="dropbtn">services</button>
               </a>
-                <div class="dropdown-content">
-                                   <a href="./website-designing-services.html">website-designing</a>
-                  <a href="./website-development-services.html">website-development</a>
-                  <a href="./mobile-App-Development-services.html">mobile-app-development</a>
-                  <a href="./seo-optimization-services.html">seo-optimization</a>
-                  <a href="./digital-Marketing-services.html">digital-marketing</a>
-                  <a href="./our-Services.html">orm-Services</a>
-                  
-                </div>
-              </li>
+              <div class="dropdown-content">
+                <a href="./website-designing-services.html">website-designing</a>
+                <a href="./website-development-services.html">website-development</a>
+                <a href="./mobile-App-Development-services.html">mobile-app-development</a>
+                <a href="./seo-optimization-services.html">seo-optimization</a>
+                <a href="./digital-Marketing-services.html">digital-marketing</a>
+                <a href="./orm-Services.html">orm-Services</a>
 
-              <li class="nav-item">
-                <a class="nav-link" href="./our-affordable-package.html">package</a>
-              </li>
+              </div>
+            </li>
 
-              
-              <li class="dropdown">
-               
-                <button class="dropbtn">digital-marketing</button>
-             
-                <div class="dropdown-content">
-                  <a href="./pay-per-click-management.html">ppc-marketing-service</a>
-                  <a href="./facebook-marketing-services.html">facebook-marketing-service</a>
-                  <a href="./instagram-markating-services.html">instagram-marketing-service</a>
-                  <a href="./linkedin-markating-services.html">linkedin-marketing-service</a>
-                </div>
-              </li>
-              
-              <li class="dropdown">
-                <!-- <a href="#"> -->
-                <button class="dropbtn">reputation</button>
+            <li class="nav-item">
+              <a class="nav-link" href="./our-affordable-package.html">package</a>
+            </li>
+
+
+            <li class="dropdown">
+
+              <button class="dropbtn">digital-marketing</button>
+
+              <div class="dropdown-content">
+                <a href="./pay-per-click-management.html">ppc-marketing-service</a>
+                <a href="./facebook-marketing-services.html">facebook-marketing-service</a>
+                <a href="./instagram-markating-services.html">instagram-marketing-service</a>
+                <a href="./linkedin-markating-services.html">linkedin-marketing-service</a>
+              </div>
+            </li>
+
+            <li class="dropdown">
+              <!-- <a href="#"> -->
+              <button class="dropbtn">reputation</button>
               <!-- </a> -->
-                <div class="dropdown-content">
-                  <a href="./remove-nagative-reviews.html">remove-nagative-reviews</a>
-                  <a href="./remove-complaints.html">remove-complaints</a>
-                  <a href="./remove-ripoff-report.html">Remove Rip-off Report</a>
-                </div>
-              </li>
-              <!-- <li class="nav-item">
+              <div class="dropdown-content">
+                <a href="./remove-nagative-reviews.html">remove-nagative-reviews</a>
+                <a href="./remove-complaints.html">remove-complaints</a>
+                <a href="./remove-ripoff-report.html">Remove Rip-off Report</a>
+              </div>
+            </li>
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="./blog.html">Blog</a>
               </li> -->
-            </ul>
-            <ul class="navbar-nav">
-              <li class="nav-item text-center">
-                <a class="nav-link learn-more-btn" href="./contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item text-center">
+              <a class="nav-link learn-more-btn" href="./contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        <div id="scroll-percentage" data-scrollPercentage><div class="percentage">&nbsp;</div></div>
-      </nav>    
-    </header>
-    <!-- Navbar section exit -->
+      </div>
+      <div id="scroll-percentage" data-scrollPercentage>
+        <div class="percentage">&nbsp;</div>
+      </div>
+    </nav>
+  </header>
+  <!-- Navbar section exit -->
+  <!-- Banner section -->
+  <section id="home" class="banner_wrapper">
+    <div class="container">
+      <div class="row align-items-center">
 
- <!-- Footer section -->
- <section id="contact" class="footer_wrapper">
+        <div class="col-md-6 header-img-section">
+          <p class="banner-subtitle">Lead BY <span>SEO</span></p>
+          <h1 class="banner-title">
+            Terms & <span>Conditions</span>
+          </h1>
+          <p class="banner-title-text">
+            Welcome to Logicxsoft Technologies! These Terms and Conditions govern your use of our website and services.
+            By accessing or using our website, you agree to comply with these Terms and Conditions. If you do not agree
+            with any part of these terms, please refrain from using our website.
+          </p>
+          <!-- <div class="learn-more-btn-section">
+              <a class="nav-link learn-more-btn btn-header" href="#about"
+                  >Start your free trial</a
+              >
+              </div> -->
+        </div>
+        <div class="col-md-6 header-img-section">
+          <img src="images/expart.png" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner section exit -->
+
+  <!-- About Content -->
+  <section id="about" class="about_wrapper">
+
+    <div class="abouts">
+      <p class="about_text">Intellectual Property:
+        All content, including text, graphics, logos, images, and software, available on the Logicxsoft Technologies
+        website is protected by intellectual property laws and belongs to Logicxsoft Technologies or its licensors. You
+        may not modify, reproduce, distribute, or create derivative works based on our content without prior written
+        consent.
+      </p>
+      <p class="about_text">User Responsibilities:
+        When using our website, you agree to:
+        <br />
+        a. Provide accurate and up-to-date information.
+        <br />
+        b. Use our services and content for lawful purposes only.
+        <br />
+        c. Respect the intellectual property rights of Logicxsoft Technologies and third parties.
+        <br />
+        d. Refrain from engaging in any activity that may damage or disrupt our website or services.
+      </p>
+      <p class="about_text">Third-Party Links:
+        Our website may contain links to third-party websites. These links are provided for convenience and
+        informational purposes only. Logicxsoft Technologies does not endorse or assume responsibility for the content,
+        privacy practices, or actions of these third-party websites. We encourage you to review the terms and conditions
+        and privacy policies of any third-party websites you visit.
+      </p>
+      <p class="about_text">Limitation of Liability:
+        Logicxsoft Technologies strives to ensure the accuracy and reliability of the information on our website.
+        However, we do not guarantee that our website will be error-free, secure, or uninterrupted. In no event shall
+        Logicxsoft Technologies or its affiliates be liable for any direct, indirect, incidental, consequential, or
+        punitive damages arising out of your use or inability to use our website or services.
+      </p>
+      <p class="about_text">Indemnification:
+        You agree to indemnify and hold Logicxsoft Technologies, its directors, employees, and agents harmless from any
+        claims, demands, or damages, including reasonable attorney fees, arising out of your use of our website,
+        violation of these Terms and Conditions, or infringement of any intellectual property rights.
+      </p>
+      <p class="about_text">Governing Law:
+        These Terms and Conditions shall be governed by and construed in accordance with the laws of [Jurisdiction]. Any
+        disputes arising out of or in connection with these terms shall be subject to the exclusive jurisdiction of the
+        courts in [Jurisdiction].
+      </p>
+      <p class="about_text">Modifications to Terms and Conditions:
+        Logicxsoft Technologies reserves the right to modify or update these Terms and Conditions at any time without
+        prior notice. It is your responsibility to review these terms periodically for any changes. Your continued use
+        of our website after any modifications indicates your acceptance of the revised Terms and Conditions.
+      </p>
+      <p class="about_text">
+        Severability:
+        If any provision of these Terms and Conditions is found to be invalid or unenforceable, the remaining provisions
+        shall remain in full force and effect.
+        <p class="about_text">
+          Entire Agreement:
+          These Terms and Conditions constitute the entire agreement between you and Logicxsoft Technologies regarding
+          your use of our website and supersede any prior agreements or understandings.
+          If you have any questions or concerns about these Terms and Conditions, please contact us using the
+          information
+          provided below:
+          <br />
+          Phone: [Phone Number]
+          <br />
+          Email: [Email Address]
+          <br />
+          Address: [Physical Address]
+          <br />
+          We are committed to addressing your inquiries and resolving any issues promptly and effectively.
+          <br />
+          Last updated: [Date]
+          By using our website or services, you acknowledge that you have read, understood, and agreed to the terms and
+          conditions outlined above.
+        </p>
+    </div>
+
+
+
+
+
+    <!-- <div class="mt-5">
+                  <a class="learn-more-btn btn-header" href="#">Learn more</a>
+              </div> -->
+  </section>
+  <!-- Footer section -->
+  <section id="contact" class="footer_wrapper">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 px-lg-5 mb-4 mb-lg-0">
           <h3 class="footer_title">about-us</h3>
           <p class="footer_text">
             <div class="footer_services">
-            <a href="#">Handled by professional</a>
-            <a href="#">Surviving coustomers</a>
-            <!-- <a href="#">mobile-app-development</a>
+              <a href="#">Handled by professional</a>
+              <a href="#">Surviving coustomers</a>
+              <!-- <a href="#">mobile-app-development</a>
             <a href="#">seo-optimization</a>
             <a href="#">digital-marketing</a>
             <a href="#">ORM Services</a> -->
-  
+
             </div>
-            
+
           </p>
         </div>
         <div class="col-lg-3 px-lg-5 mb-4 mb-lg-0">
           <h3 class="footer_title">Resources</h3>
           <p class="footer_text">
             <div class="footer_services">
-            <!-- <a href="./blog.html">Blog</a> -->
-            <a href="./privacy-policy.html">Privacy & Polices</a>
-            <a href="./Terms-&-Conditions.html">Terms & Conditions</a>
-            <a href="./Refund-&-Cancellation-Policy.html">Refund & Cancellation Policy</a>
-            <!-- <a href="./DigitalMarketing.html">digital-marketing</a>
+              <!-- <a href="./blog.html">Blog</a> -->
+              <a href="./privacy-policy.html">Privacy & Polices</a>
+              <a href="./Terms-&-Conditions.html">Terms & Conditions</a>
+              <a href="./Refund-&-Cancellation-Policy.html">Refund & Cancellation Policy</a>
+              <!-- <a href="./DigitalMarketing.html">digital-marketing</a>
             <a href="./ORMServices.html">ORM Services</a> -->
-  
+
             </div>
-            
+
           </p>
         </div>
         <div class="col-lg-3 px-lg-5 mb-4 mb-lg-0">
           <h3 class="footer_title">Live Chat</h3>
           <p class="footer_text">
             <div class="footer_services">
-            <a href="#">Ranking ByLogicxsoft</a>
-            <a href="#">Ranking ByLogicxsoft</a>
-            <a href="#">+91-0000000000</a>
-            <a href="#">+91-0000000000</a>
-            <!-- <a href="./DigitalMarketing.html">digital-marketing</a>
+              <a href="#">Ranking ByLogicxsoft</a>
+              <a href="#">Ranking ByLogicxsoft</a>
+              <a href="#">+91-0000000000</a>
+              <a href="#">+91-0000000000</a>
+              <!-- <a href="./DigitalMarketing.html">digital-marketing</a>
             <a href="./ORMServices.html">ORM Services</a> -->
-  
+
             </div>
-            
+
           </p>
         </div>
         <div class="col-lg-3 mb-4 mb-lg-0">
           <h3 class="footer_title">Contact</h3>
           <p class="footer_text">
             <div class="footer_services">
-               <a href="#">info.services@hashtag.com</a>
-            <div class="footer_address">Deshbandhupara <br />Siliguri, 734004, India</div
-            >
+              <a href="#">info.services@hashtag.com</a>
+              <div class="footer_address">Deshbandhupara <br />Siliguri, 734004, India</div>
           </p>
         </div>
-  
-  
-           
-          
-        </div>
-        <div class="social">
-        <div class="col-12 text-center" >
+
+
+
+
+      </div>
+      <div class="social">
+        <div class="col-12 text-center">
           <!-- <h3 class="footer_title">Social Media</h3> -->
           <p>
-            <a href="#" class="footer_social_media_icon"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a href="#" class="footer_social_media_icon"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="#" class="footer_social_media_icon"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a href="#" class="footer_social_media_icon"
-              ><i class="fa-brands fa-skype"></i></a>
-              <a href="#" class="footer_social_media_icon"
-              ><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="footer_social_media_icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="footer_social_media_icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer_social_media_icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="footer_social_media_icon"><i class="fa-brands fa-skype"></i></a>
+            <a href="#" class="footer_social_media_icon"><i class="fa-brands fa-youtube"></i></a>
           </p>
         </div>
-  
-        </div>
-        
-        <div class="col-12 footer_credits text-center">
-          <span
-            >© 2022
-            <a href="./index.html" target="_blank" title="Code4education">Logicxsoft</a
-            >™. All Rights Reserved.</span
-          >
-        </div>
+
       </div>
+
+      <div class="col-12 footer_credits text-center">
+        <span>© 2022
+          <a href="./index.html" target="_blank" title="Code4education">Logicxsoft</a>™. All Rights Reserved.</span>
+      </div>
+    </div>
     </div>
   </section>
   <!-- Footer section exit -->
-  </body>
-  
-  <script src="js/javaScript.js"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-  
-    <!-- cdn Owl Carousel -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-  
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  </html>
+</body>
+
+<script src="js/javaScript.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<!-- cdn Owl Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</html>
