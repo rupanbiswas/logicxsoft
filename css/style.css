@@ -824,8 +824,9 @@ input[type="submit"]:hover {
   background-color: #00296b;
   padding: 20px;
   font-weight: 500;
-  width: min(100%,560px);
+  width: min(97%,560px) !important;
   max-width: none !important;
+  margin: 20px;
   /* font-family: "Quicksand", sans-serif; */
 }
 
